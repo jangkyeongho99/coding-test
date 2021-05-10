@@ -1,0 +1,8 @@
+max_of_min=0
+n,m=map(int, input().split())
+for _ in range(n):
+    a=list(map(int,input().split()))
+    a=sorted(a)
+    if a[0]>max_of_min:
+        max_of_min=a[0]
+print(max_of_min)
